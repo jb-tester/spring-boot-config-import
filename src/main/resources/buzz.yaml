@@ -1,2 +1,3 @@
 buzz:
   prop2: from buzz.yaml
+  prop4: reference from imported yaml

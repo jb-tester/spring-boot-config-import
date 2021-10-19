@@ -1,0 +1,9 @@
+#spring:
+#  config:
+#    import: 
+#       - classpath:buzz.yaml
+#       - resource:buzz.properties
+#       - classpath:boo.properties  
+dummy:
+  prop3: reference from yaml
+            

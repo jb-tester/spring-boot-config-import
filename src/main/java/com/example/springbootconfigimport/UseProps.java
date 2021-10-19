@@ -21,6 +21,11 @@ public class UseProps {
     @Value("${dummy.prop1:default dummy.prop1}") String dummyp1;
     @Value("${dummy.prop2:default dummy.prop2}") String dummyp2;
 
+    // test property reference:
+    @Value("${dummy.prop3}") String fromMainYaml;
+    @Value("${buzz.prop4}") String fromImportedYaml;   // doesn't work
+    @Value("${buzz.prop3}") String fromImportedProperties;
+    
     public void display() {
         System.out.println(foop1);
         System.out.println(foop2);

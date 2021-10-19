@@ -12,6 +12,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 public class ConfProps4 {
     String prop1;
     String prop2;
+    String prop3;
 
     public String getProp1() {
         return prop1;
@@ -27,5 +28,13 @@ public class ConfProps4 {
 
     public void setProp2(String prop2) {
         this.prop2 = prop2;
+    }
+
+    public String getProp3() {
+        return prop3;
+    }
+
+    public void setProp3(String prop3) {
+        this.prop3 = prop3;
     }
 }
