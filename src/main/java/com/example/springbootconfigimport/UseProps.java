@@ -19,6 +19,7 @@ public class UseProps {
     @Value("${buzz.prop1:default buzz.prop1}") String buzzp1;
     @Value("${buzz.prop2:default buzz.prop2}") String buzzp2;
     @Value("${dummy.prop1:default dummy.prop1}") String dummyp1;
+    @Value("${dummy.prop2:default dummy.prop2}") String dummyp2;
 
     public void display() {
         System.out.println(foop1);
@@ -28,6 +29,7 @@ public class UseProps {
         System.out.println(buzzp1);
         System.out.println(buzzp2);
         System.out.println(dummyp1);
+        System.out.println(dummyp2);
     }
 
     ;
