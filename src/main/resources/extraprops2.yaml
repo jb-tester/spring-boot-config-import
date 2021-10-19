@@ -1,2 +1,3 @@
 bar:
-  prop2: bbb
+  prop2: from extraprops2.yaml
+  aaa: aaaa
