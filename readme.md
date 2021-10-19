@@ -1,9 +1,10 @@
-spring.config.import=/etc/config/myfile.yml # import a file from the filesystem
-#---
-spring.config.import=resource:/etc/config/myfile.yml # more explicit version of above
-#---
-spring.config.import=classpath:extra.properties # import a classpath resource
-#---
-spring.config.import=resource:classpath:extra.properties # more explicit version of above
-#---
-spring.config.import=configtree:/etc/config/folder # import a config tree
+https://youtrack.jetbrains.com/issue/IDEA-250837
+https://youtrack.jetbrains.com/issue/IDEA-255364
+
+
+https://youtrack.jetbrains.com/issue/IDEA-280745
+https://youtrack.jetbrains.com/issue/IDEA-280739
+https://youtrack.jetbrains.com/issue/IDEA-280741
+https://youtrack.jetbrains.com/issue/IDEA-280736
+https://youtrack.jetbrains.com/issue/IDEA-280738
+https://youtrack.jetbrains.com/issue/IDEA-280744

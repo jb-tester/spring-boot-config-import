@@ -5,5 +5,5 @@
 #       - resource:buzz.properties
 #       - classpath:boo.properties  
 dummy:
-  prop3: reference from yaml
+  prop3: reference from main yaml
             
