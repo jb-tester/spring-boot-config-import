@@ -22,8 +22,9 @@ public class UseProps {
     @Value("${dummy.prop2:default dummy.prop2}") String dummyp2;
 
     // test property reference: https://youtrack.jetbrains.com/issue/IDEA-280745
-    @Value("${dummy.prop3}") String fromMainYaml;
+    @Value("${dummy.prop3}") String fromMainYaml;   // value interpolation doesn't work  https://youtrack.jetbrains.com/issue/IDEA-280794
     @Value("${buzz.prop4}") String fromImportedYaml;   // doesn't work
+    @Value("${dummy.prop4}") String fromMainProperties;
     @Value("${buzz.prop3}") String fromImportedProperties;
     
     public void display() {

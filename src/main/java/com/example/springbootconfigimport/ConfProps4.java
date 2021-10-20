@@ -13,7 +13,8 @@ public class ConfProps4 {
     String prop1;
     String prop2;
     String prop3;
-
+    String prop4;
+    
     public String getProp1() {
         return prop1;
     }
@@ -36,5 +37,13 @@ public class ConfProps4 {
 
     public void setProp3(String prop3) {
         this.prop3 = prop3;
+    }
+
+    public String getProp4() {
+        return prop4;
+    }
+
+    public void setProp4(String prop4) {
+        this.prop4 = prop4;
     }
 }
